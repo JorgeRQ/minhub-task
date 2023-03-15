@@ -44,7 +44,7 @@ nav{
 .image-1>form{
     position: absolute;
 }
-#tit{
+#title{
     position: absolute;
     font-size: 2rem;
 }
@@ -152,14 +152,13 @@ h2{
     width: 60vw;
     position: static;
 }
-.titles{
+#title-2{
     position: absolute;
 }
 .parrafo-contact{
     display: flex;
     justify-content: space-evenly;
     height: 16rem;
-
 }
 .parrafo-contact-1{
     width: 15vw;
@@ -178,7 +177,7 @@ table, tr, th, td {
 .tablas{
     display: flex;
     justify-content: center;
-    height: 72vh;
+    height: 75.4vh;
 }
 table{
     width: 50rem;
