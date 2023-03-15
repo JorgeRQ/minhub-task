@@ -44,15 +44,17 @@ nav{
 .image-1>form{
     position: absolute;
 }
-.titles{
+#tit{
     position: absolute;
     font-size: 2rem;
 }
-.titles>h1{
+h1{
     font-size: 3rem;
+    text-align: center;
 }
-.titles>h2{
+h2{
     font-size: 2rem ;
+    text-align: center;
 }
 .style-22about{
     margin-bottom: 1.5rem;
@@ -70,17 +72,36 @@ nav{
     width: 15vw;
     position: absolute;
 }
+.headerabout{
+    border: 0.1 solid white;
+    display: flex;
+    padding: 10vh 10vw;
+    justify-content: center;
+}
+.titlesabout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .main-about{
-    border: 0.1rem solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+}
+.main-about img{
+    width: 20rem;
 }
 .figure-about{
     display: flex;
-    width: 50vw;
-    height: 150rem;
+    justify-content: space-around;
 }
-.figure-about img{
-    width: 40vw;
-    height: 150hw;
+.parrafo-about{
+    display: flex;
+    justify-content: space-around;
+}
+.parrafo-about>p{
+    width: 20vw;
 }
 .shadow__btn {
     cursor: pointer;
@@ -112,6 +133,28 @@ nav{
                 0 0 20px rgb(255, 136, 0),
                 0 0 10px rgb(255, 136, 0),
                 0 0 40px rgb(255, 123, 0);
+}
+.title-3-style-2{
+    border: 0.1rem solid white;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+.image-contact>img{
+    border: 0.1rem solid white;
+    width: 50vw;
+}
+.titles{
+    border: 0.1rem solid white;
+    position: relative;
+}
+.test{
+    border: 0.1rem solid white;
+    display: flex;
+    flex-direction: column;
+    height: 60rem;
+    align-items: center;
 }
 table, tr, th, td {
     border: 1px solid rgb(255, 255, 255);
