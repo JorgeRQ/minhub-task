@@ -135,25 +135,40 @@ h2{
                 0 0 40px rgb(255, 123, 0);
 }
 .title-3-style-2{
-    border: 0.1rem solid white;
     display: flex;
     height: 100vh;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.image-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 50rem;
 }
 .image-contact>img{
-    border: 0.1rem solid white;
-    width: 50vw;
+    width: 60vw;
+    position: static;
 }
 .titles{
-    border: 0.1rem solid white;
-    position: relative;
+    position: absolute;
 }
-.test{
-    border: 0.1rem solid white;
+.parrafo-contact{
     display: flex;
-    flex-direction: column;
-    height: 60rem;
+    justify-content: space-evenly;
+    height: 16rem;
+
+}
+.parrafo-contact-1{
+    width: 15vw;
+    display: flex;
+    align-items: center;
+}
+.gmail-tell{
+    width: 15vw;
+    display: flex;
     align-items: center;
 }
 table, tr, th, td {
