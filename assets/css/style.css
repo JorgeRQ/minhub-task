@@ -1,0 +1,216 @@
+:root{
+    font-family: Arial;
+    font-style: normal;
+}
+:root {
+    background: linear-gradient(black, rgb(255, 133, 19));
+  }
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    font-size: 15px;
+    color: white
+}
+.navegacion{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+nav>a{
+    text-decoration: none;
+}
+nav{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-1{
+    display: flex;
+    height: 4rem;
+}
+.style-22about{
+    display: none;
+}
+.shadow__btn {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 100px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    -webkit-transition: 0.5s;
+    transition: 0.4s;
+    -webkit-transition-property: -webkit-box-shadow;
+    transition-property: -webkit-box-shadow;
+    transition-property: box-shadow;
+    transition-property: box-shadow, -webkit-box-shadow;
+}
+  
+.shadow__btn {
+    background: rgb(255, 81, 0);
+    -webkit-box-shadow: 0 0 20px rgb(255, 81, 0);
+            box-shadow: 0 0 25px rgb(255, 81, 0)
+}
+.shadow__btn:hover {
+    -webkit-box-shadow: 0 0 5px rgb(255, 0, 0),
+                0 0 20px rgb(255, 0, 0),
+                0 0 10px rgb(255, 0, 0),
+                0 0 40px rgb(255, 136, 0);
+            box-shadow: 0 0 5px rgb(255, 136, 0),
+                0 0 20px rgb(255, 136, 0),
+                0 0 10px rgb(255, 136, 0),
+                0 0 40px rgb(255, 123, 0);
+}
+p{
+    font-size: 1.2rem;
+}
+.titles{
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+    text-decoration: 10rem;
+    font-size: 3vw;
+}
+h2{
+    text-align: center;
+    text-decoration: 10rem;
+    font-size: 2vw;
+}
+.image-1{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+.image-1-1{
+    width: 50vw;
+}
+.image-2{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.image-2-2{
+    width: 40vw;
+}
+.parrafo-index{
+    width: 40vw;
+    align-items: center;
+    text-align: center;
+}
+.main-about{
+    display: flex;
+}
+.figure-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    height: 150vh;
+}
+.figure-about>img{
+    width: 25vw;
+}
+.parrafo-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45vw;
+    text-align: center;
+}
+.image-contact{
+    display: flex;
+    justify-content: center;
+}
+.boy{
+    width: 58vw;
+}
+.parrafo-contact{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+.parrafo-contact-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 58vw;
+    height: 10vh;
+}
+.gmail-tell{
+    display: flex;
+    justify-content: center;
+    height: 5vh;
+}
+.gmail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 58vw;
+}
+.gmail>a{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+table, tr, th, td {
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+.tablas{
+    display: flex;
+    justify-content: center;
+    height: 72vh;
+}
+table{
+    width: 50rem;
+    height: 20rem;
+    text-align: center;
+}
+caption{
+    text-align: start;
+    font-size: 1.5rem;
+}
+.body-list{
+    height: 98.5vh;
+}
+.lists{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: start;
+}
+.sub-title-1{
+    width: 30vw;
+}
+.sub-title-2{
+    width: 30vw;
+}
+.guys img{
+    width: 20vw;
+}
+.guys>figure{
+    height: 70vh;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.guys-lists{
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
