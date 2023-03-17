@@ -8,22 +8,24 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style2.css">
 </head>
-<body>
+<body class="body-form">
+<!--     en el verificador me salia un error que deja de aparecer cuando sacaba el show data
+ -->    <form action="./show_data.html">
     <div class="navegacion">
         <nav>
             <form action="../index.html">
                 <button type="submit" class="shadow__btn">Home</button>
             </form>                    
-            <form action="../html/about_us.html">
+            <form action="./html/about_us.html">
                 <button type="submit" class="shadow__btn">about us</button>
             </form>
-            <form action="../html/contact.html">
+            <form action="./html/contact.html">
                 <button type="submit" class="shadow__btn">Contact</button>
             </form>
-            <form action="../html/tables.html">
+            <form action="./html/tables.html">
                 <button type="submit" class="shadow__btn">Schedule</button>
             </form>
-            <form action="../html/list.html">
+            <form action="./html/list.html">
                 <button type="submit" class="shadow__btn">Benefits and Tips</button>
             </form>
             <form action="#">
@@ -39,9 +41,9 @@
         <h2>Every month in this section you can participate in a raffle.</h2>
     </div>
     <div class="todo">
-        <figure>
+        <figure class="imagens-form">
             <img src="../images/together-2.jpg" alt="together-2">
-            <img src="" alt="">
+            <img src="../images/sacale-partido-gimnasio-t.jpg" alt="chica-entrenando">
         </figure>
     <div class="formulary">
         <h3>PARTICIPATE IN OUR RAFFLE FOR A MONTH OF PERSONALIZED TRINING</h3>
@@ -68,7 +70,7 @@
         </div>
         <div>
             <label for="country">Choose your country</label>
-            <select name="" id="">
+            <select name="country" id="country">
                 <option value="">--Please choose an option--</option>
                 <option value="argenita">Argentina</option>
                 <option value="chile">Chile</option>
@@ -85,10 +87,15 @@
             <label for="debit-card">Bedit Card</label>
             <input type="radio" name="payment" id="debit-card">
         </div>
+        <div class="service">
+            <label for="service">Service</label>
+            <input type="text" name="service" id="service">
+        </div>
+        <input type="submit" value="send">
     </div>
     </div>
-    <footer>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14489.581470815185!2d-65.4155654!3d-24.7819118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3b8250e163f%3A0x1d9b0920fb4d2d8f!2sOlympus%20GyM!5e0!3m2!1ses-419!2sar!4v1679037808610!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </footer>
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14489.581470815185!2d-65.4155654!3d-24.7819118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3b8250e163f%3A0x1d9b0920fb4d2d8f!2sOlympus%20GyM!5e0!3m2!1ses-419!2sar!4v1679044433550!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 </body>
 </html>

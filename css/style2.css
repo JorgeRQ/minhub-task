@@ -44,7 +44,7 @@ nav{
 .image-1>form{
     position: absolute;
 }
-#title{
+#tit{
     position: absolute;
     font-size: 2rem;
 }
@@ -235,4 +235,179 @@ caption{
 }
 input, select, option{
     color: black;
+}
+.todo{
+    display: flex;
+    height: 130vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagens-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 41vw;
+    height: 50rem;
+}
+.formulary{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 30rem;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+.formulary h3{
+    text-align: center;
+}
+.imagens-form img{
+    width: 40vw;
+}
+#service{
+    height: 10rem;
+    width: 25rem;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+}
+.mapa{
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    height: 22rem;
+}
+.mapa iframe{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+@media only screen and (max-width: 767px) {  
+    body{
+        height: 134vh;
+    } 
+    #tit{
+        font-size: 2vw;
+    }
+    h1{
+        font-size: 6vw;
+        text-align: center;
+        text-align: center;
+    }
+    h2{
+        font-size: 3vw ;
+        text-align: center;
+        text-align: center;
+    } 
+    p{
+        font-size: 1.5vw;
+    }
+    .navegacion{
+        margin: 0%;
+        border: 0.1rem solid white;
+        background-color: black;
+        position: sticky;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .shadow__btn{
+        color: rgb(255, 255, 255);
+        border-radius: 1rem;
+        width: 12vw;
+        height: 5vh;
+        text-align: center;
+        background-color: rgb(255, 115, 0);
+        box-shadow: 1rem orangered;
+        padding: 0rem;
+        font-size: 1.5vw;
+
+    }
+    nav{
+        width: 100vw;
+    }
+    .body-about{
+        width: 100vw;
+        height: 99vh;
+    }
+    .headerabout{
+        display: flex;
+    }
+.main-about{
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    height: 65vh;
+}
+.figure-about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.parrafo-about{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.figure-about img{
+    width: 20vw;
+}
+.parrafo-contact{
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.image-contact img{
+    width: 60vw;
+}
+.title-3-style-2{
+    height: 55vh;
+}
+.gmail-tell{
+    width: 30vw;
+    height: 25vh;
+}
+.parrafo-contact-1{
+    height: 25vh;
+}
+.contact-body{
+    height: 100vh;
+}
+/* .body-tables{
+    height: 100vh;
+}
+ */.tablas{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+}
+.guys img{
+    width: 30vw;
+}
+.formulary{
+    width: 54vw;
+}
+.todo{
+    display: flex;
+flex-direction: column;    
+justify-content: space-around;
+margin: 0%;
+}
+.body-about{
+    height: 100vh;
+}
+.body-form{
+    height: 150vh;
+}
+.mapa{
+}
+.imagens-form{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    width: 80vw;
+}
+.imagens-form img{
+    width: 30vw;
+}
 }
