@@ -44,15 +44,17 @@ nav{
 .image-1>form{
     position: absolute;
 }
-.titles{
+#title{
     position: absolute;
     font-size: 2rem;
 }
-.titles>h1{
+h1{
     font-size: 3rem;
+    text-align: center;
 }
-.titles>h2{
+h2{
     font-size: 2rem ;
+    text-align: center;
 }
 .style-22about{
     margin-bottom: 1.5rem;
@@ -70,17 +72,36 @@ nav{
     width: 15vw;
     position: absolute;
 }
+.headerabout{
+    border: 0.1 solid white;
+    display: flex;
+    justify-content: center;
+}
+.titlesabout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .main-about{
-    border: 0.1rem solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 75.2vh;
+
+}
+.main-about img{
+    width: 20rem;
 }
 .figure-about{
     display: flex;
-    width: 50vw;
-    height: 150rem;
+    justify-content: space-around;
 }
-.figure-about img{
-    width: 40vw;
-    height: 150hw;
+.parrafo-about{
+    display: flex;
+    justify-content: space-around;
+}
+.parrafo-about>p{
+    width: 20vw;
 }
 .shadow__btn {
     cursor: pointer;
@@ -113,6 +134,47 @@ nav{
                 0 0 10px rgb(255, 136, 0),
                 0 0 40px rgb(255, 123, 0);
 }
+p{
+    font-size: 1.2rem;
+}
+.title-3-style-2{
+    display: flex;
+    height: 86vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-contact>img{
+    width: 45rem;
+    position: static;
+}
+#title-2{
+    position: absolute;
+}
+.parrafo-contact{
+    display: flex;
+    justify-content: space-evenly;
+    height: 17rem;
+}
+.parrafo-contact-1{
+    height: 17rem;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gmail-tell{
+    height: 17rem;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 table, tr, th, td {
     border: 1px solid rgb(255, 255, 255);
     border-collapse: collapse;
@@ -120,7 +182,7 @@ table, tr, th, td {
 .tablas{
     display: flex;
     justify-content: center;
-    height: 72vh;
+    height: 75.4vh;
 }
 table{
     width: 50rem;
@@ -162,4 +224,7 @@ caption{
     height: 70vh;
     display: flex;
     justify-content: space-around;
+}
+input, select, option{
+    color: black;
 }

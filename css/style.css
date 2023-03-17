@@ -26,6 +26,7 @@ nav{
     justify-content: space-around;
     align-items: center;
 }
+
 .logo-1{
     display: flex;
     height: 4rem;
@@ -48,8 +49,7 @@ nav{
     transition-property: -webkit-box-shadow;
     transition-property: box-shadow;
     transition-property: box-shadow, -webkit-box-shadow;
-}
-  
+}  
 .shadow__btn {
     background: rgb(255, 81, 0);
     -webkit-box-shadow: 0 0 20px rgb(255, 81, 0);
