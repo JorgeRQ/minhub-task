@@ -51,9 +51,11 @@ nav{
 h1{
     font-size: 3rem;
     text-align: center;
+    text-align: center;
 }
 h2{
     font-size: 2rem ;
+    text-align: center;
     text-align: center;
 }
 .style-22about{
@@ -94,6 +96,11 @@ h2{
 }
 .figure-about{
     display: flex;
+    justify-content: space-around;
+}
+.parrafo-about{
+    display: flex;
+    justify-content: space-around;
     justify-content: space-around;
 }
 .parrafo-about{
@@ -182,6 +189,7 @@ table, tr, th, td {
 .tablas{
     display: flex;
     justify-content: center;
+    height: 75.4vh;
     height: 75.4vh;
 }
 table{
